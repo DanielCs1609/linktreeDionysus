@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dionysus | Links</title>
+    <meta name="description" content="Explore a plataforma Dionysus. Conecte-se ao nosso catálogo de filmes ou jogue games clássicos no Retro Dionysus.">
+    <link rel="icon" type="image/png" href="assets/favicon-transparent.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="particle-canvas"></canvas>
+    
+    <div class="ambient-glow bg-glow-left"></div>
+    <div class="ambient-glow bg-glow-right"></div>
+
+    <div class="container animate-fade-in">
+        <header class="profile-header">
+            <div class="logo-banner-container">
+                <img src="media-center/Dionysus logo gif.gif" alt="Dionysus Logo" class="brand-logo-banner">
+            </div>
+            <p class="brand-subtitle">Cinema, Diversão & Entretenimento</p>
+        </header>
+
+        <main class="links-container">
+            <a href="https://dionysuswine.fun/web/#/login" target="_blank" rel="noopener noreferrer" class="link-card link-classic" data-tilt>
+                <div class="card-inner">
+                    <div class="card-glow-overlay"></div>
+                    <div class="card-icon-container">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4zm-8 12V10l5 3-5 3z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">Dionysus Wine</h2>
+                        <p class="card-desc">Catálogo exclusivo de filmes. Assista, explore e encontre suas próximas grandes produções.</p>
+                    </div>
+                    <div class="card-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <a href="https://retro.dionysuswine.fun" target="_blank" rel="noopener noreferrer" class="link-card link-retro" data-tilt>
+                <div class="card-inner">
+                    <div class="card-glow-overlay"></div>
+                    <div class="card-icon-container">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5S17.67 11 18.5 11s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">Retro Dionysus</h2>
+                        <p class="card-desc">Sua máquina do tempo gamer. Relembre a era de ouro dos jogos clássicos e divirta-se online.</p>
+                    </div>
+                    <div class="card-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </main>
+
+        <footer class="social-footer">
+            <p class="copyright">&copy; 2026 Dionysus. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
